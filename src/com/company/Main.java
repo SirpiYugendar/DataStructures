@@ -1,6 +1,5 @@
 package com.company;
 
-import javax.sound.sampled.Line;
 import java.util.Random;
 
 public class Main {
