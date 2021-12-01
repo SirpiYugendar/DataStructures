@@ -1,3 +1,7 @@
 # DataStructures
 Implementing DataStructures in Java.
-## Sirpi Yugendar
+
+....
+git clone https://github.com/SirpiYugendar/Datasturctures
+cd ~/DataStructures/
+.... code
