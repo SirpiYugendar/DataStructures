@@ -1,14 +1,20 @@
 package com.company;
 
-import java.util.Random;
+import com.company.doublylist.DoublyList;
 
 public class Main {
 
     public static void main(String[] args) {
-        LinkedList list = new LinkedList();
-        for (int i = 0; i < 10; ++i) {
-            list.add(i + new Random().nextInt(100));
-        }
-        list.print();
+        DoublyList doublyList = new DoublyList();
+        doublyList.add(12);
+        doublyList.add(12121);
+        doublyList.add(3439);
+        doublyList.add(1343);
+        doublyList.add(12143);
+        doublyList.add(12143);
+        doublyList.add(12143);
+        doublyList.add(12143);
+        doublyList.add(12143);
+        doublyList.listPrint();
     }
 }
